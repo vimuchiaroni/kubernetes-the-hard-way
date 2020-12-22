@@ -21,7 +21,7 @@ gcloud compute ssh controller-0
 Download the official etcd release binaries from the [etcd](https://github.com/etcd-io/etcd) GitHub project:
 
 ```
-wget -q --show-progress --https-only --timestamping \
+wget -q --timestamping \
   "https://github.com/etcd-io/etcd/releases/download/v3.4.10/etcd-v3.4.10-linux-amd64.tar.gz"
 ```
 
